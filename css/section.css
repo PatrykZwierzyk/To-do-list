@@ -1,0 +1,44 @@
+.section {
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 0 0 7px gray;
+}
+
+.section__header {
+    padding: 20px 20px;
+    font-size: 20px;
+    margin: 1px;
+}
+
+.section__body {
+    border-bottom: 1px solid #dfd1d1ee
+}
+
+.section__list {
+    padding: 15px;
+}
+
+.section__form {
+    display: flex;
+    padding: 20px 25px 20px 25px;
+}
+
+.section__form-input {
+    width: 650px;
+    padding: 10px;
+}
+
+.section__form-button {
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    margin-left: 20px;
+    background: hsl(180, 100%, 25%);
+    color: white;
+    border: none;
+}
+
+.section__form-button:hover {
+    color: white;
+    background: hsl(180, 100%, 30%);
+}
