@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
 
 </head>
 
@@ -26,8 +27,8 @@
             <div class="section__body">
                 <h2 class="section__header">Dodaj nowe zadanie</h2>
             </div>
-            <form class="section__form">
-                <input class="section__form-input" placeholder="Co jest do zrobienia?" autofocus>
+            <form class="section__form js-form">
+                <input class="section__form-input js-newTask" placeholder="Co jest do zrobienia?" autofocus>
                 <button class="section__form-button">Dodaj zadanie</button>
             </form>
         </section>
@@ -35,7 +36,8 @@
             <div class="section__body">
                 <h2 class="section__header">Lista zadań</h2>
             </div>
-            <ul class="section__list">
+            <ul class="section__list js-tasks">
+                <li class="js-list"></li>
             </ul>
         </section>
     </main>
