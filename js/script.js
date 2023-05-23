@@ -1,15 +1,5 @@
 {
-    const tasks = [
-        {
-            content: "nagrać lekscje",
-            done: false,
-        },
-        {
-            content: "cokolwiek",
-            done: true,
-        },
-
-    ];
+    const tasks = [];
 
     const render = () => {
         let htmlString = "";
@@ -25,26 +15,33 @@
         document.querySelector(".js-tasks").innerHTML = htmlString;
     };
 
+    const addNewTask = (newTaskContent) => {
+        tasks.push({
+            content: newTaskContent,
+        });
+
+        render();
+    };
+
+    const onFormSubmit = (event) => {
+        event.preventDefault();
+
+        const newTaskContent = document.querySelector(".js-newTask").value.trim();
+
+        if (newTaskContent === "") {
+            return;
+        }
+
+        addNewTask(newTaskContent);
+
+    };
+
     const init = () => {
         render();
 
         const form = document.querySelector(".js-form");
 
-        form.addEventListener("submit", (event) => {
-            event.preventDefault();
-
-            const newTaskContent = document.querySelector(".js-newTask").value.trim();
-
-            if (newTaskContent === "") {
-                return;
-            }
-
-            tasks.push({
-                content: newTaskContent,
-            });
-
-            render();
-        });
+        form.addEventListener("submit", onFormSubmit);
     };
 
     init();
