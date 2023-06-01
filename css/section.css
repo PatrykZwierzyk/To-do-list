@@ -14,10 +14,6 @@
     border-bottom: 1px solid #dfd1d1ee
 }
 
-.section__list {
-    padding: 15px;
-}
-
 .section__form {
     display: flex;
     padding: 20px 25px 20px 25px;
@@ -36,9 +32,4 @@
     background: hsl(180, 100%, 25%);
     color: white;
     border: none;
-}
-
-.section__form-button:hover {
-    color: white;
-    background: hsl(180, 100%, 30%);
 }
