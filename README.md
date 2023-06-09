@@ -8,6 +8,7 @@ I have created a simple task list application that allows users to mark tasks as
 + CSS
 + JavaScript
 + Grid
++ Flexbox
 
 ## Link to the website:
  https://patrykzwierzyk.github.io/To-do-list/
