@@ -7,11 +7,7 @@
         });
 
         render();
-
-        const newTaskInput = document.querySelector(".js-newTask");
-        newTaskInput.value = "";
-        newTaskInput.focus();
-    };
+    }
 
     const removeTask = (index) => {
         tasks.splice(index, 1);
@@ -69,6 +65,10 @@
         }
 
         addNewTask(newTaskContent);
+
+        const newTaskInput = document.querySelector(".js-newTask");
+        newTaskInput.value = "";
+        newTaskInput.focus();
 
     };
 
