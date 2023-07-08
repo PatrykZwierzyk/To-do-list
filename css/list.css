@@ -20,16 +20,26 @@
 .list__button--remove {
     height: 30px;
     width: 30px;
-    background-color: red;
+    background-color: hsl(0, 100%, 60%);
     color: white;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.list__button--remove:hover {
+    background: hsl(0, 100%, 70%);
 }
 
 .list__button--done {
     height: 30px;
     width: 30px;
     color: white;
-    background-color: green;
+    background-color: hsl(120, 100%, 25%);
     border: none;
+    transition: 0.5s;
+}
+
+.list__button--done:hover {
+    background: hsl(120, 100%, 30%);
 }
