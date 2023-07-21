@@ -13,6 +13,10 @@
     padding: 10px;
 }
 
+.list__item--hidden {
+    display: none;
+}
+
 .list__text--done {
     text-decoration: line-through;
 }
@@ -38,6 +42,7 @@
     background-color: hsl(120, 100%, 25%);
     border: none;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .list__button--done:hover {
