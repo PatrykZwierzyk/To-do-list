@@ -8,6 +8,6 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #eeee;
+    background-color: hsla(0, 0%, 93%, 0.933);
     word-break: break-word;
 }
