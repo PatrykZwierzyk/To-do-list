@@ -5,8 +5,29 @@
 }
 
 .section__header {
-    border-bottom: 1px solid #dfd1d1ee;
     padding: 20px 20px;
     font-size: 20px;
     margin: 1px;
+}
+
+.section__body {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #dfd1d1ee;
+}
+
+.section__hidden {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section__button {
+background-color: white;
+border: none;
+cursor: pointer;
+transition: 1s;
+}
+
+.section__button:hover {
+    color: hsla(0, 0%, 80%, 0.933);
 }
