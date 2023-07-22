@@ -13,4 +13,4 @@ I have created a simple task list application that allows users to mark tasks as
 ## Link to the website:
  https://patrykzwierzyk.github.io/To-do-list/
 
- ![Animation](https://github.com/PatrykZwierzyk/To-do-list/blob/main/images/Animation.gif?raw=true)
+ ![Animation](https://github.com/PatrykZwierzyk/To-do-list/blob/main/images/Animation.gif)
